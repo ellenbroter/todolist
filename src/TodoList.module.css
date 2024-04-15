@@ -1,0 +1,38 @@
+body {
+	
+}
+
+button {
+	border-radius: 8px;
+	border: 1px solid transparent;
+	padding: 0.2em 1em;
+	font-size: 14px;
+	font-weight: 500;
+	font-family: inherit;
+	background-color: lightblue;
+	cursor: pointer;
+	transition: border-color 0.25s;
+ }
+ button:hover {
+	border-color: lightslategray;
+ }
+ button:focus,
+ button:focus-visible {
+	outline: 4px auto lightslategray;
+ }
+
+.checkbox {
+	display:inline-block;
+	cursor: pointer;
+	font-size: 22px;
+}
+
+li {
+	list-style-type: none;
+}
+
+.todolist{
+	background-color: antiquewhite;
+	border-radius: 8px;
+	padding: 1rem 2rem;
+}
